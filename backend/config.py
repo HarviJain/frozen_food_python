@@ -17,7 +17,7 @@ class Config:
     # Database Configuration
     SQLALCHEMY_DATABASE_URI = os.environ.get(
         "DATABASE_URL",
-        "postgresql://postgres:Harvi%4057@localhost:5432/Frozen-Food"
+        "postgresql+psycopg2://frozen_food_5on2_user:t1Uldo08yVYlrBNvyfYEd73Z8Ed59Rj3@dpg-d7ce209kh4rs73cjpngg-a.oregon-postgres.render.com:5432/frozen_food_5on2"
     )
 
     SQLALCHEMY_TRACK_MODIFICATIONS = False

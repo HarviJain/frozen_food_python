@@ -696,8 +696,8 @@ import secrets
 from dotenv import load_dotenv
 
 # Import db and models from models.py
-from backend.models import db, Enquiry
-from backend.config import DevelopmentConfig
+from models import db, Enquiry
+from config import DevelopmentConfig
 
 # Load environment variables
 load_dotenv()
